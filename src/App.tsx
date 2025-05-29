@@ -26,7 +26,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/zehit">
         <AuthProvider>
           <Routes>
             {/* Página inicial pública */}

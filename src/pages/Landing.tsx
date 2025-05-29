@@ -89,7 +89,7 @@ const Landing = () => {
       {/* Como Funciona */}
       <section className="py-24 bg-gradient-to-r from-[#2A0D5B]/80 to-[#4A148C]/80">
         <div className="max-w-5xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
-          <img src="Logo Zenith Final.png" alt="Dashboard" className="rounded-2xl shadow-2xl border-4 border-[#4A148C] object-cover w-full" />
+          <img src={process.env.PUBLIC_URL + '/Logo Zenith Final.png'} alt="Dashboard" className="rounded-2xl shadow-2xl border-4 border-[#4A148C] object-cover w-full" />
           <div className="space-y-8">
             <h2 className="text-4xl font-bold text-white mb-4">Como funciona?</h2>
             <ul className="text-white/90 text-xl space-y-4 list-disc list-inside">
