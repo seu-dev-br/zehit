@@ -9,7 +9,7 @@ const Landing = () => {
       {/* Header minimalista fixo */}
       <header className="w-full fixed top-0 left-0 z-30 bg-transparent flex justify-between items-center px-12 py-6">
         <div className="flex items-center gap-3">
-          <img src="/KY ZENITH.png" alt="Logo Zerith" className="h-10 w-10 object-contain" />
+          <img src={process.env.PUBLIC_URL + '/KY ZENITH.png'} alt="Logo Zerith" className="h-10 w-10 object-contain" />
           <span className="text-2xl font-bold tracking-widest text-white"><span style={{ color: '#FFDD00' }}>Z</span>ERITH</span>
         </div>
         <Button onClick={() => navigate("/login")}
@@ -60,7 +60,7 @@ const Landing = () => {
           className="rounded-2xl shadow-2xl border-4 border-[#4A148C] max-w-3xl w-full bg-black"
           style={{ outline: 'none' }}
         >
-          <source src="/comercial.mp4" type="video/mp4" />
+          <source src={process.env.PUBLIC_URL + '/comercial.mp4'} type="video/mp4" />
           Seu navegador não suporta vídeo.
         </video>
       </div>
