@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# Zehit AI
 
-## Project info
+Painel de monitoramento inteligente para frotas elétricas.
 
-**URL**: https://lovable.dev/projects/37638fa2-5ee8-4193-b706-ce817ed056e3
+## 🚀 Tecnologias
 
-## How can I edit this code?
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [React Router DOM](https://reactrouter.com/)
 
-There are several ways of editing your application.
+## 📦 Instalação
 
-**Use Lovable**
+```bash
+git clone https://github.com/seu-dev-br/zehit.git
+cd zehit
+npm install
+```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/37638fa2-5ee8-4193-b706-ce817ed056e3) and start prompting.
+## 💻 Desenvolvimento local
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Acesse [http://localhost:8080](http://localhost:8080) no navegador.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Build para produção (GitHub Pages)
 
-**Use GitHub Codespaces**
+O build já está configurado para gerar os arquivos na pasta `docs` e funcionar em [https://seu-dev-br.github.io/zehit/](https://seu-dev-br.github.io/zehit/).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+git add docs
+git commit -m "Build para GitHub Pages"
+git push origin main
+```
 
-## What technologies are used for this project?
+## 📁 Estrutura
 
-This project is built with:
+- `src/` — Código-fonte do projeto
+- `docs/` — Build de produção para GitHub Pages
+- `public/` — Imagens e assets estáticos
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deploy
 
-## How can I deploy this project?
+O deploy é feito automaticamente ao atualizar a pasta `docs` na branch `main`.
 
-Simply open [Lovable](https://lovable.dev/projects/37638fa2-5ee8-4193-b706-ce817ed056e3) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Desenvolvido por [seu-dev-br](https://github.com/seu-dev-br).
